@@ -1,0 +1,10 @@
+Title: DropZone.js - Upload Multiple Files to the Database in JQuery/AJAX, PHP and MySQL Database and DropZonejs
+
+Files
+
+$fileName = $picture["name"];
+$fileType = $picture["type"];
+$fileTmpName = $picture["tmp_name"];
+$fileError = $picture["error"];
+$fileSize = $picture["size"];
+$fileExt = explode(".", $fileName);
